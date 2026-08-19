@@ -1,0 +1,9 @@
+{
+  "name": "security-audit",
+  "version": "1.0.0",
+  "description": "Security-Audit einer Codebasis: Web-Apps, APIs, Dienste, CLI-Werkzeuge, Bibliotheken. Sucht ausnutzbare Schwachstellen mit echter Wirkung.",
+  "author": { "name": "Cloudflare" },
+  "repository": "https://github.com/cloudflare/security-audit-skill",
+  "license": "Apache-2.0",
+  "skills": ["./skills/security-audit"]
+}

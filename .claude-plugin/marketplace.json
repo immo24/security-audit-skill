@@ -1,0 +1,18 @@
+{
+  "name": "cloudflare-security",
+  "owner": {
+    "name": "Cloudflare",
+    "url": "https://github.com/cloudflare/security-audit-skill"
+  },
+  "metadata": {
+    "description": "Security-Audit-Skill von Cloudflare, als Plugin verpackt (Manifest von immo24 ergaenzt)"
+  },
+  "plugins": [
+    {
+      "name": "security-audit",
+      "source": "./",
+      "description": "Security-Audit einer Codebasis: Web-Apps, APIs, Dienste, CLI-Werkzeuge, Bibliotheken. Sucht ausnutzbare Schwachstellen mit echter Wirkung.",
+      "category": "security"
+    }
+  ]
+}
